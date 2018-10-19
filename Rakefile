@@ -17,11 +17,10 @@ namespace :db do
     task :migrate => :environment do
           task :environment do
           require_relative './config/environment'
-          ebd
+        end
       Student.create_table
   end
 
-end
 
 
   desc 'seed the database with some dummy data'

@@ -13,4 +13,8 @@ namespace :db do
   task :migrate do
 
   end
+
+  task :seed do
+
+  end
 end
